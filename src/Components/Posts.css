@@ -1,0 +1,68 @@
+/* Posts.css */
+.posts-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.post-title {
+  text-align: center;
+  margin: 2rem 0;
+}
+.posts-table {
+  width: 100%;
+  margin-bottom: 20px;
+  border-collapse: collapse;
+}
+
+.posts-list-item-id {
+  margin-right: 10px;
+}
+
+.posts-list-item-title {
+  text-align: left;
+}
+
+.posts-table th,
+.posts-table td {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.posts-table th {
+  background-color: #e4f0f8;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.input-field {
+  flex: 1;
+  margin-right: 10px;
+  padding: 8px;
+}
+
+.add-button {
+  background-color: #0c4c8a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+}
+
+.pagination button {
+  background-color: #2c599d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 16px;
+  margin: 2rem 5px;
+}
